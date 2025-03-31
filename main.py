@@ -9,7 +9,7 @@ from app.scrappers.rarbg import searchRarbg, getRarbgTorrentData
 import os
 
 # Create the FastAPI app
-app = FastAPI()
+app = FastAPI() 
 
 # Set the port (default is 8000)
 PORT = int(os.getenv("PORT", 8000))
